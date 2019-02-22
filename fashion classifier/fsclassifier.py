@@ -13,7 +13,7 @@ from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv("fashion-mnist_train.csv")
+data = pd.read_csv("fashion_train.csv")
 
 X = data.iloc[:, 1:].values
 y = data.iloc[:, 0:1].values
